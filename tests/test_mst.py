@@ -12,7 +12,7 @@ def sample_graph():
         {"from":"B","to":"D","weight":5},
         {"from":"C","to":"D","weight":7},
         {"from":"C","to":"E","weight":8},
-        {"from":"D","to":"E","weight":6}
+        
     ]
     return Graph(nodes, edges)
 
