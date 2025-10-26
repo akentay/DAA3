@@ -9,7 +9,7 @@ class Tracker:
         self.unions = 0
         self.finds = 0
         self.heap_ops = 0
-        
+        self.other_ops = 0
 
     def to_dict(self):
         return {
