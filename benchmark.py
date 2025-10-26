@@ -45,7 +45,7 @@ def run_all(input_path="input.json", out_json="output.json", out_csv="results.cs
                 ops.get('unions',0),
                 ops.get('finds',0),
                 ops.get('heap_ops',0),
-                ops.get('other_ops',0)
+                
             ])
 
     write_output(results, path=out_json)
